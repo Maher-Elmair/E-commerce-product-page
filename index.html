@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add a Favicon to your Site -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <!--Font Awesone Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ion-icons Library -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/6.1.1/esm/ionicons.min.js"> -->
+    <!--Main Template Css File-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Frontend Mentor | Ecommerce product page</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="app">
+                <!-- start header -->
+                <header class="header">
+                    <div class="left">
+                        <div class="con-logo">
+                            <img src="images/logo.svg" alt="logo">
+                        </div>
+                        <ul class="list">
+                            <i class="fa-solid fa-xmark"></i>
+                            <li><a href="#">Collections</a></li>
+                            <li> <a href="#">Men</a></li>
+                            <li> <a href="#">Women</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <i class="fa-solid fa-align-justify"></i>
+                    </div>
+                    <div class="right">
+                        <div class="popup-cart-container">
+                            <h3 class="heading">Cart</h3>
+                            <div class="cart-content">
+                                <p>Your cart is empty.</p>
+                            </div>
+                        </div>
+                        <div class="con-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="con-avater">
+                            <img src="images/image-avatar.png" alt="">
+                        </div>
+                    </div>
+                </header>
+                <!-- end header -->
+                <!-- start content -->
+                <div class="content">
+                    <div class="images">
+                        <div class="master-image">
+                            <i class="fa-solid fa-chevron-right next"></i>
+                            <img class="expand" src="images/image-product-1.jpg" alt="">
+                            <i class="fa-solid fa-chevron-left previous"></i>
+                        </div>
+                        <div class="all-images">
+                            <span class="thumbnails active">
+                                <img class="thumbnail-img " src="images/image-product-1.jpg" alt="">
+                            </span>
+                            <span class="thumbnails">
+                                <img class="thumbnail-img" src="images/image-product-2.jpg" alt="">
+                            </span>
+                            <span class="thumbnails">
+                                <img class="thumbnail-img" src="images/image-product-3.jpg" alt="">
+                            </span>
+                            <span class="thumbnails">
+                                <img class="thumbnail-img" src="images/image-product-4.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <div class="her">
+                            <p class="Company">Sneaker Company</p>
+                            <p class="heading">Fall Limited Edition Sneakers</p>
+                            <p class="subheading">These low-profile sneakers are your perfect casual wear companion.
+                                Featuring a durable rubber outer sole, they’ll withstand everything the weather can
+                                offer.</p>
+                        </div>
+                        <div class="product-prices">
+                            <span class="new-price"> &dollar;125.00</span>
+                            <span class="disc-price">50%</span>
+                            <span class="old-price">&dollar;250.00</span>
+                        </div>
+                        <div class="ourder">
+                            <label for="quantity-number" class="quantity">
+                                <button type="button" class="decrement"></button>
+                                <input type="number" value="0" id="quantity-number">
+                                <button type="button" class="increment"></button>
+                            </label>
+                            <button class="to-cart"> Add to cart </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end content -->
+            </div>
+            <!-- start popup gallery  -->
+            <div class="shadow-gallery " style="display: none;">
+                <div class="master-image">
+                    <i class="fa-solid fa-xmark" id="xmark"></i>
+                    <i class="fa-solid fa-chevron-right next"></i>
+                    <img class="expand" src="images/image-product-1.jpg" alt="">
+                    <i class="fa-solid fa-chevron-left previous"></i>
+                </div>
+                <div class="all-images">
+                    <span class="thumbnails active">
+                        <img class="thumbnail-img " src="images/image-product-1.jpg" alt="">
+                    </span>
+                    <span class="thumbnails">
+                        <img class="thumbnail-img" src="images/image-product-2.jpg" alt="">
+                    </span>
+                    <span class="thumbnails">
+                        <img class="thumbnail-img" src="images/image-product-3.jpg" alt="">
+                    </span>
+                    <span class="thumbnails">
+                        <img class="thumbnail-img" src="images/image-product-4.jpg" alt="">
+                    </span>
+                </div>
+            </div>
+            <!-- end popup gallery  -->
+            <!-- start Attribution -->
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                    Mentor</a>.
+                Coded by <a href="#">Maher Elmair</a>.
+            </div>
+            <!-- end Attribution -->
+
+        </div>
+    </div>
+
+    <!--Main Template Java Script File-->
+    <script src="Scripts/app.js"></script>
+</body>
+
+
+</html>
