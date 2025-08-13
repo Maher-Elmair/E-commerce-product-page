@@ -3,6 +3,8 @@
 This is a solution to the **[E-commerce Product Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)**.  
 The challenge is to build an interactive product page that matches the provided design, using HTML, Sass (SCSS), and JavaScript.
 
+> 📅 **Note:** This is an old project built on **‎Sunday, ‎February 5, 2023** as part of my early front-end learning journey.
+
 ---
 
 ## 📸 Screenshots
